@@ -2,6 +2,14 @@ spring:
   application:
     name: ecom-config-server
 
+  rabbitmq:
+    host: stingray.rmq.cloudamqp.com
+    port: 5672
+    username: wbjoilwl
+    password: 6iwcajT7YzjtcMFqZfE7GXYkx9ZGSI_B
+    virtual-host: wbjoilwl
+    connection-timeout: 30000
+
   cloud:
     config:
       server:
